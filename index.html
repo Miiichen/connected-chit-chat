@@ -430,33 +430,42 @@
     <!-- ======= Sign in Section ======= -->
     
   <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login-page.css">
-    <script defer src="login-page.js"></script>
-  </head>
-
-  <body>
-  <main id="main-holder">
-    <h1 id="login-header">Login</h1>
+   <section id="faq" class="faq">
+      <div class="container">
+        
+        <div class="sign-in-title" data-aos="fade-up">
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Login</title>
+          <link rel="stylesheet" href="login-page.css">
+          <script defer src="login-page.js"></script>
+        </div>
+        
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            
+            
+        <body>
+          <main id="main-holder">
+            <h1 id="login-header">Login</h1>
+            
+            <div id="login-error-msg-holder">
+              <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+            </div>
     
-    <div id="login-error-msg-holder">
-      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
-    </div>
-    
-    <form id="login-form">
-      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <input type="submit" value="Login" id="login-form-submit">
-    </form>
+      <form id="login-form">
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+        <input type="submit" value="Login" id="login-form-submit">
+      </form>
   
-    </main>
-  </body>
+      </main>
+    </body>
+          </div>
 
-  </html>
+    </html>
+    
+  <!-- End sign in section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
